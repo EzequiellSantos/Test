@@ -21,3 +21,15 @@ PUB/SUB
 IoT - envio de mensagens, como (relatórios)
 
 pub/sub - O Pub/Sub garante a entrega de mensagens recebidas pelo menos uma vez para aplicativos por assinatura
+//
+Segundo Laboratório, curso 2 parte 3
+
+Praticando pub/sub, publicando mensagens usando o pub/sub, criando assinaturas usando o pub/sub, publicar
+mensagens de assinaturas de pub/sub, mandar mensagens indivíduais de tópicos
+
+////////
+Fim do Módulop de API
+Conceitos aprendidos
+-beneficios de uma API
+-Cloud Endpoints e o Apigee Edge
+-Pub/Sub
