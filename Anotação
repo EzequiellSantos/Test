@@ -13,3 +13,11 @@ Enviando Solicitações à API
 Rastreando Atividade da API
 .
 Adicionando Cota API
+
+////////////////////////////////
+
+PUB/SUB
+
+IoT - envio de mensagens, como (relatórios)
+
+pub/sub - O Pub/Sub garante a entrega de mensagens recebidas pelo menos uma vez para aplicativos por assinatura
