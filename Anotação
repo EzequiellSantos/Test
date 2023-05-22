@@ -17,13 +17,13 @@ Adicionando Cota API
 ////////////////////////////////
 
 PUB/SUB
-
+.
 IoT - envio de mensagens, como (relatórios)
-
+.
 pub/sub - O Pub/Sub garante a entrega de mensagens recebidas pelo menos uma vez para aplicativos por assinatura
 //
 Segundo Laboratório, curso 2 parte 3
-
+.
 Praticando pub/sub, publicando mensagens usando o pub/sub, criando assinaturas usando o pub/sub, publicar
 mensagens de assinaturas de pub/sub, mandar mensagens indivíduais de tópicos
 
@@ -33,3 +33,40 @@ Conceitos aprendidos
 -beneficios de uma API
 -Cloud Endpoints e o Apigee Edge
 -Pub/Sub
+
+//////////////////////////////////////////////
+SEGURANÇA NA NUVEM
+
+IAM - ajuda a definir e implementar políticas
+.
+TRÊS TIPOS:
+BÁSICO - Os papéis básicos incluem de proprietário, editor, leitor, e administrador de faturamento
+.
+PREDEFINIDO - Assim, quem tiver esse papel pode realizar um conjunto específico de ações predefinidas
+.
+PERSONALIZADO - privilégio mínimo, em que cada pessoa na organização recebe o mínimo de privilégios necessários para fazer o trabalho
+
+////
+
+Identity and Access Management - para proteger os dados precisam ser configuradas corretamente
+
+////
+
+CMEK - CHAVE DE CRIPTOGRAFIAS GERADAS ṔELO CLIENTE MAIS SIMPLES
+.
+CSEK - '' '' '' '' '' MAIS COMPLEXAS
+.
+TLS - DADOS EM TRÂNSITOS CRIPTOGRAFADOS
+.
+KMS - AUTOMATIZA E SIMPLIFICA A CRIAÇÃO DE CHAVES //COMPATIVEL COM CHAVCES SIMÉTRICAS E ASSIMÉTRICAS
+.
+IAP - CONFIGURAR AUTENTICAÇÃO  EM APPS COM BASE HTTPS SEM USAR VPN
+.
+IAP + LS - O IAP verifica a autenticação e a autorização quando um usuário tenta acessar um recurso protegido por ele.
+O IAP garante a autenticação e a autorização de solicitações externas usando o TLS.
+
+//////
+laboratório de autenticação
+-implantando o aplicativo e proteja-o com IAP
+-acessessando as informações de identidade de usuário 
+-usando a verificação criptográfica 
