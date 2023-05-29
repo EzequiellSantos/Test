@@ -70,3 +70,22 @@ laboratório de autenticação
 -implantando o aplicativo e proteja-o com IAP
 -acessessando as informações de identidade de usuário 
 -usando a verificação criptográfica 
+
+
+
+
+//////
+
+IAM - atualiza assinaturas de grupos em vez de de alterar as políticas 
+
+laboratório IAM permissões:
+-configuração para dois usuários
+-papeis de cada usuário possui
+-papeis de editor 
+-recurso de editor
+-removendo acesso do projeto 
+-adicionando permissoes cloud storage 
+-verificando acesso
+
+////////////// MODULO 3
+
