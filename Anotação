@@ -89,7 +89,44 @@ laboratório IAM permissões:
 
 ////////////// MODULO 3
 
-CND - Redes de fornecimento de Conteúdos, são locais na rede do google  que são usadas
+CND - Redes de fornecimento de Conteúdos;
+  são locais na rede do google  que são usadas para armazernar conteúdo em cache mais próximo dos usuários
+  
+OBS: Caso uma determinada página não tiver o CND ele irá chamar o CLOUD LOAD BALANCIG e retornar uma resposta ao usuário através de um servidor frontend  
 
-//1:39
+////
+As instâncias são implantadas em sub-redes locais, mas as políticas, firewall e roteamento APN são configurados a nivel global 
+
+VPC - rede privada virtual // hospedada em uma nuvem pública 
+
+// A medida que as redes forem crescendo o intervalos de ip entre elas tbm cresce, como na distância entre elas tambem 
+
+2 tipos de redes VPC;
+.
+definidas pelo modo de criação de sub-rede: 
+modo de sub-rede automático e modo de sub-rede personalizado
+.
+modo de sub-rede automático
+- criada uma rede dentro de uma região automática com IPs predefinidos sem regras de firewall
+modo de sub-rede personalizado
+-Esse tipo de rede oferece controle total sobre as sub-redes e os intervalos de IP. Você decide quais sub-redes criar nas regiões que escolher, você decide as regras de firewall
+
+//as redes personalizada são bem mais flexíveis  e adequadas a ambientes de produção, você pode mudar de automático para personalizado mas uma rede personalizada não pode se tornar automática
+
+CIDR - roteamento entre domínios sem classe
+- quais os endereços internos vão ser usado por máquinas virtuais na sub-rede
+
+------ os endereços públicos ou internos são reservados ou temporários, se vc adicionar um endereço privado e não indicar a VM vc será taxado
+os ips são renovados a cada 24hrs 
+
+//CLOUD DNS - transforma solicitações de nomes de domínio em endereços de IP 
+
+Tabelas de Roteamento = encaminhar um tráfego de uma instância para outra na mesma rede , entre sub-redes e outras regiões 
+
+////WEB///
+
+peering de VPC - relação entre duas VPC 
+- atraves da conexão RFC 1918
+
+Rede VPC compartilhada == Rede VPC Geral 
 
