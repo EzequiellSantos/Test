@@ -130,3 +130,18 @@ peering de VPC - relação entre duas VPC
 
 Rede VPC compartilhada == Rede VPC Geral 
 
+///////// Labortório gerenciando redes VPC ///////////
+
+-Criar redes VPC de modo personalizado com regras de firewall
+-Criar instâncias de VM
+-Analisar a conectividade entre as instâncias de VM
+-Criar uma instância de VM com várias interfaces de rede
+
+
+//////// Segundo Laboratório redes VPC  //////// 
+
+-Como controlar o acesso", você vai criar servidores da Web NGINX
+-HTTP externo aos servidores da Web 
+-No laboratório "Redes VPC - Como controlar o acesso", você vai criar servidores da Web NGINX
+-criar um servidor da Web NGINX,
+-criar regras de firewall com tags, criar uma conta de serviço com papéis do IAM
