@@ -145,3 +145,45 @@ Rede VPC compartilhada == Rede VPC Geral
 -No laboratório "Redes VPC - Como controlar o acesso", você vai criar servidores da Web NGINX
 -criar um servidor da Web NGINX,
 -criar regras de firewall com tags, criar uma conta de serviço com papéis do IAM
+- - Tags de Redes
+
+//////////////////
+
+-Criando Nuvens hibridas -> conectando as próprias vpcs a outras redes do sistemas 
+
+- protocolo VPN IPsec para criar uma conexão de "túnel"
+
+- Cloud Router - outras redes podem trocar informações de rotas pela VPN usando o gateway de borda 
+
+//peering, colocar um roteador no mesmo data center públivo que um ponto de presença do google
+
+// pessoas que n tem o PoP, podem contratar um parceiro no programa de peering por operadora para se conectarem
+
+//////////////////////
+
+*** Balanceador de Cargas ***
+distribuir tráfegos entre os usuários entre várias instancias de um aplicativo 
+
+. É possível usar o balanceador em:
+  - HTTP(S), TCP, SSL e UDP
+  ** HTTPS && SSL
+  ** proxy TCP != SSL
+  
+ ////////** Laboratório Balanceador de Cargas HTTP **////////////
+ 
+ 
+   - Criar uma regra de firewall de verificação de integridade
+   
+   - Criar duas configurações NAT regionais usando o Cloud Router
+   
+   - Configurar dois modelos de instância
+   
+   - Criar dois grupos de instâncias gerenciadas
+   
+   - Configurar um balanceador de carga HTTP com IPv4 e IPv6
+   
+   - Fazer um teste de estresse em um balanceador de carga HTTP
+   
+   - Negar o acesso de um endereço IP a um balanceador de carga HTTP
+   
+  
