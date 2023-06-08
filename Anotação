@@ -186,4 +186,25 @@ distribuir tráfegos entre os usuários entre várias instancias de um aplicativ
    
    - Negar o acesso de um endereço IP a um balanceador de carga HTTP
    
+   /////// Modulo 8 //////
+        otimmização de infraestrutura de apps
+        
+   - IaC infraestrutura como código
+      permite criar infraestruturas inteiras por modelos 
+      
+   - Terraform, uma ferramenta de código aberto que permite usar modelos para provisionar recursos do Google Cloud
+   
+   4 categorias de registros:
+   - de agente, de rede e de serviço
+   
+   cloud traces
+   
+   
+   ***/// Laboratório Cloud Monitoring ///***
+   
+   -Criar uma instancia e adcionar um servidor http apache2 na instancia
+   -Criar uma verificação de tempo de atividade 
+   -Criar uma política de alertas 
+   -Criar um painel e um gráfico 
+   
   
