@@ -207,4 +207,26 @@ distribuir tráfegos entre os usuários entre várias instancias de um aplicativ
    -Criar uma política de alertas 
    -Criar um painel e um gráfico 
    
+   
+   /////////////
+   
+   O Dataproc é um serviço gerenciado do Spark e do Hadoop com ferramentas de código aberto para processamentos em lote, consultas, streaming e machine learning
+    Com a automação do Dataproc, você cria clusters rapidamente
+    
+    
+   //////*** Laboratório 1 do curso 4 ***/////
+   
+   Vamos criar um cluster do Dataproc, executar um job simples do Apache Spark e modificar o número de workers nesse cluster usando o console do Cloud.
+   
+   Durante a prática, você cria um cluster, depois envia um job e visualiza a saída dele
+   
+   /// ------ Laboratório 2 do curso 4 ------ //
+   
+   A diferença é que neste vamos usar a CLI gcloud no Google Cloud. 
+   
+   Aqui você vai criar outro cluster do Dataproc e executar outro job simples do Apache Spark nele
+   
+   Mas dessa vez vamos modificar o número de workers no cluster usando a CLI gcloud
+   
+   Durante o laboratório, você vai criar um cluster, enviar um job e, por fim, atualizar um cluster.
   
