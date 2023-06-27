@@ -49,6 +49,14 @@ Dataproc
 ```
 para criar um cluster
 
+Depois vá em 
+```jxs
+API & Services > Credentiais > Chave de Api > Criar Chave
+```
+
+Copie a Chave
+
+
 Executando a Tarefa da IA texto:
 
 ```jsx
@@ -119,3 +127,19 @@ curl -s -H 'Content-Type: application/json' \
 
 curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/operations/OPERATION_FROM_PREVIOUS_REQUEST' > result1.json
 ```
+Logo após, em 
+```jxs
+Dataproc
+```
+Vai em VM instances dentro do cluster criado e entra no 
+```jxs
+SSH
+```
+e digita o codigo dado pelo laboratório
+.
+.
+Logo em seguida na mesma seção de menu, clique em 
+```jxs
+Jobs
+```
+E submeta um Job patra finalizar a tarefa com os dados cedidos pelo laboratório
