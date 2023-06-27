@@ -14,7 +14,10 @@ gsutil cp gs://cloud-training/gsp323/lab.schema .
 cat lab.schema
 ```
 
-Restante da tarefa é manual na seção BigQuery 
+Restante da tarefa é manual na seção 
+```jsx 
+BigQuery
+``` 
 
 …Criando a Tabela: Cole esse comando na seção texto do Schema 
 
@@ -34,6 +37,17 @@ Restante da tarefa é manual na seção BigQuery
         {"type":"FLOAT","name":"longitude"}
 ]
 ```
+
+Logo Após é a tarefa No Menu
+```jsx
+Dataflow
+```
+
+Logo Após é a tarefa No Menu
+```jsx
+Dataproc
+```
+para criar um cluster
 
 Executando a Tarefa da IA texto:
 
